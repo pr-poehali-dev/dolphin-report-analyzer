@@ -691,7 +691,9 @@ export default function Index() {
       {/* Header Navigation */}
       <header className="relative z-10 flex items-center justify-between px-4 sm:px-6 py-4 lg:px-12">
         <div className="flex items-center space-x-2 pl-3 sm:pl-6 lg:pl-12">
-          <span className="text-white font-bold text-lg sm:text-xl lg:text-2xl">NeonForge</span>
+          <span className="text-white font-bold text-lg sm:text-xl lg:text-2xl tracking-tight">
+            Hoops<span className="text-orange-500">Transfer</span>
+          </span>
         </div>
 
         <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
@@ -702,7 +704,7 @@ export default function Index() {
             Тарифы
           </a>
           <a href="#" className="text-white/80 hover:text-white transition-colors text-sm lg:text-base">
-            О нас
+            О продукте
           </a>
           <a href="#" className="text-white/80 hover:text-white transition-colors text-sm lg:text-base">
             Контакты
@@ -715,7 +717,7 @@ export default function Index() {
         </button>
 
         <ShimmerButton className="hidden md:flex bg-orange-500 hover:bg-orange-600 text-white px-4 lg:px-6 py-2 rounded-xl text-sm lg:text-base font-medium shadow-lg">
-          Начать
+          Запросить демо
         </ShimmerButton>
       </header>
 
@@ -729,13 +731,13 @@ export default function Index() {
               Тарифы
             </a>
             <a href="#" className="text-white/80 hover:text-white transition-colors">
-              О нас
+              О продукте
             </a>
             <a href="#" className="text-white/80 hover:text-white transition-colors">
               Контакты
             </a>
             <ShimmerButton className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-xl text-sm font-medium shadow-lg w-fit">
-              Начать
+              Запросить демо
             </ShimmerButton>
           </nav>
         </div>
@@ -743,31 +745,31 @@ export default function Index() {
 
       {/* Main Content */}
       <main className="relative z-10 flex flex-col items-start justify-start sm:justify-center min-h-[calc(100vh-80px)] px-4 sm:px-6 lg:px-12 max-w-6xl pt-4 sm:-mt-12 lg:-mt-24 pl-6 sm:pl-12 lg:pl-20">
-        {/* Trial Badge */}
+        {/* Badge */}
         <div className="mb-4 sm:mb-8">
           <div className="inline-flex items-center bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-3 sm:px-4 py-2">
-            <span className="text-white text-xs md:text-xs">14 дней бесплатно</span>
+            <span className="text-orange-400 text-xs md:text-xs font-medium">⚡ Вердикт за 5 секунд · Точность 98%</span>
           </div>
         </div>
 
         <h1 className="text-white text-4xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl font-bold leading-tight mb-4 sm:mb-6 text-balance">
-          Собери портфолио
+          Ваш цифровой
           <br />
-          за{" "}
+          юрист для{" "}
           <LineShadowText className="italic font-light" shadowColor="white">
-            минуты
+            трансферов
           </LineShadowText>
         </h1>
 
         <p className="text-white/70 text-sm sm:text-base md:text-sm lg:text-2xl mb-6 sm:mb-8 max-w-2xl text-pretty">
-          Присоединяйся к сообществу цифровых художников,
+          Исключите риски срыва заявок и международных санкций.
           <br className="hidden sm:block" />
           <span className="sm:hidden"> </span>
-          создающих захватывающие работы.
+          РФБ, Единая лига ВТБ, ФИБА — всё в одном окне.
         </p>
 
         <Button className="group relative bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base md:text-xs lg:text-lg font-semibold flex items-center gap-2 backdrop-blur-sm border border-orange-400/30 shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/40 transition-all duration-300 hover:scale-105 hover:-translate-y-0.5">
-          Начать сейчас
+          Запросить пилотный проект
           <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 group-hover:-rotate-12 transition-transform duration-300" />
           <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-white/0 via-white/10 to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         </Button>
